@@ -16,6 +16,7 @@ public class NinjaModel {
     private   String email;
     private int idade;
 
+    //teste de comentario
     public NinjaModel()
     {
 
