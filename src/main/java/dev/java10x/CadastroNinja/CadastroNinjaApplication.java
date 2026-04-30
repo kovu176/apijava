@@ -10,4 +10,6 @@ public class CadastroNinjaApplication {
 		SpringApplication.run(CadastroNinjaApplication.class, args);
 	}
 // teste
+	// alan
+
 }
