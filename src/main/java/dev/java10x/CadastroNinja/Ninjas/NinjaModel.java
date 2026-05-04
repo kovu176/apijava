@@ -21,9 +21,11 @@ public class NinjaModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  long id;
+    @Column(name="nome")
     private   String nome;
 
-    @Column(unique = true) // isso determina que essa coluna não se repita ( 2 pessoas ter o mesmo usuario ou email)
+    @Column(unique = true, name="email") // isso determina que essa coluna não se repita ( 2 pessoas ter o mesmo usuario ou email)
+
     private   String email;
     private int idade;
 
