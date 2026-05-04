@@ -17,7 +17,7 @@ public class MissoesModel {
     private String descricao;
     private Rank rank;
 
-    @OneToMany(mappedBy = "missoes") // uma missao pode conter varios ninjas
+    @OneToMany(mappedBy = "missao") // uma missao pode conter varios ninjas
     private List<NinjaModel> ninjas;
 
     public MissoesModel ()
