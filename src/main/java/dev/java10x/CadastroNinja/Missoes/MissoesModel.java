@@ -2,7 +2,7 @@ package dev.java10x.CadastroNinja.Missoes;
 
 import dev.java10x.CadastroNinja.Ninjas.NinjaModel;
 import jakarta.persistence.*;
-import dev.java10x.CadastroNinja.Ninjas.NinjaModel;
+
 
 import java.util.List;
 
